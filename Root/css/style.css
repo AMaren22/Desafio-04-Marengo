@@ -321,8 +321,8 @@ main {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: repeat(3, 30vw);
-  grid-template-rows: repeat(4, 30vw);
+  grid-template-columns: repeat(3, 29vw);
+  grid-template-rows: repeat(4, 29vw);
   justify-content: space-evenly;
   grid-row-gap: 2vw;
   grid-template-areas:
@@ -333,6 +333,7 @@ main {
 }
 .portfolio-image-01 {
   background-color: azure;
+  grid-area: image1;
 }
 .portfolio-image-02 {
   background-color: rgb(50, 50, 158);
@@ -362,6 +363,45 @@ main {
 .portfolio-image-08 {
   background-color: rgb(177, 221, 19);
   grid-area: image8;
+}
+.portfolio-image-01:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  
+}
+.portfolio-image-02:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+ 
+}
+.portfolio-image-03:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  
+}
+.portfolio-image-04:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  
+}
+.portfolio-image-05:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  
+}
+.portfolio-image-06:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  
+}
+.portfolio-image-07:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+} 
+.portfolio-image-08:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  
 }
 .button-container {
   display: flex;
