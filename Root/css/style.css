@@ -80,6 +80,30 @@ body {
 .item-04 {
   grid-area: item-04;
 }
+.num-01{
+  transform: rotate(-90deg);
+  background: -webkit-linear-gradient(-90deg, rgb(128, 238, 247),rgb(81, 166, 177));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.num-02{
+  
+  background: -webkit-linear-gradient(0deg, rgb(128, 238, 247),rgb(81, 166, 177));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.num-03{
+  background: -webkit-linear-gradient(0deg, rgb(128, 238, 247),rgb(81, 166, 177));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.num-04{
+  transform: rotate(90deg);
+  background: -webkit-linear-gradient(90deg, rgb(128, 238, 247),rgb(81, 166, 177));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 li {
   list-style: none;
